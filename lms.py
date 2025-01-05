@@ -9,7 +9,7 @@ class library:
         for i in self.list:
             print(i)
     def lendbook(self,name,book):
-        if book not in self.dict:2
+        if book not in self.dict:
             self.dict.update({book:name})
             print("your name is registered")
             self.list.remove(book)
